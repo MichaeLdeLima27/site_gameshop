@@ -15,7 +15,7 @@ body, input, textarea {
 
 header {
     padding: 16px 0;
-    background-color: #182C61;
+    background-color: #35642f;
     color: #ecf0f1;
     }
 
@@ -28,12 +28,24 @@ header {
 header nav li a {
     color: #ecf0f1;
     text-decoration: none;
-}
+    }
+
+header nav li a:hover {
+        background-color: #94d48c;
+    }
 
 .container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+}
+
+#logo-bola {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 24px;
+    width: auto;
 }
 
 header .container, section .container {
@@ -64,7 +76,7 @@ section h2 {
 }
 
 section {
-    color: #182C61;
+    color: #35642f;
 }
 
 section p {
@@ -114,22 +126,22 @@ section h3 {
 }
 
 form button {
-    background-color: #182C61;
+    background-color: #35642f;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #314e9e;
+    background-color: #94d48c;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182C61;
+    outline-color: #35642f;
 }
 
 footer {
-    background-color: #182C61;
+    background-color: #35642f;
     color: #ecf0f1;
     padding: 16px;
 }
